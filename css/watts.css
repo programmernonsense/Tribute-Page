@@ -1,0 +1,65 @@
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: monospace, fantasy;
+  font-weight: 400;
+  line-height: 2em;
+  background-color:  #373737;
+}
+
+.image1, .image2, .image3{
+  position:relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+}
+.image1{
+  background-image: url('../images/watts-1953.jpg');
+  min-height: 100%;
+}
+
+.image2{
+  background-image: url('../images/watts1920.jpg');
+  min-height: 100%;
+  background-size: contain;
+
+}
+
+.image3{
+  background-image: url('../images/watts1966.jpg');
+  min-height:100%;
+  background-size: contain;
+}
+
+section{
+  text-align: center;
+}
+.odd{
+  background-color: #edddaac9;
+  padding: 40px 60px;
+}
+
+.even{
+  background-color: #dcd0c0a8;
+  padding: 40px 60px;
+}
+.motto{
+  text-align: center;
+  padding-top: 20vw;
+  font-size: 3rem;
+  font-family: serif;
+  color: #fff;
+}
+.border{
+  border: 3px solid white;
+  font-size:3rem;
+  line-height: 5rem;
+}
+
+a{
+  color: white;
+}
